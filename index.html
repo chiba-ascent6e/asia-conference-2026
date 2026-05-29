@@ -2,11 +2,234 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2026 Online International Research Conference for High School Students in Asia</title>
+  <meta name="description" content="2026 Online International Research Conference for High School Students in Asia, hosted by Chiba University STELLA Program ASCENT-6E.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>2026 Online International Research Conference for High School Students in Asia</h1>
-  <p>Official website under preparation.</p>
-  <p>Hosted by Chiba University STELLA Program ASCENT-6E</p>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-inner">
+      <div class="brand">
+        <p class="brand-project">CHIBA UNIVERSITY<br>STELLA PROGRAM</p>
+        <p class="brand-name">ASCENT-6E</p>
+        <p class="brand-year">2026</p>
+      </div>
+
+      <nav class="side-nav" aria-label="Main navigation">
+        <a href="#home" class="active">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#program">PROGRAM</a>
+        <a href="#workshop">WORKSHOP</a>
+        <a href="#participation">PARTICIPATION</a>
+        <a href="#timeline">TIMELINE</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="sidebar-links">
+        <a href="#" class="muted-link" aria-disabled="true">PARTICIPATION GUIDE<br><span>Coming Soon</span></a>
+        <a href="#" class="muted-link" aria-disabled="true">REGISTRATION<br><span>Opens July 20</span></a>
+      </div>
+
+      <p class="sidebar-footer">Hosted by Chiba University<br>STELLA Program ASCENT-6E</p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <section class="hero" id="home">
+      <div class="hero-label">ONLINE INTERNATIONAL FORUM · 2026</div>
+      <h1>2026 Online International Research Conference for High School Students in Asia</h1>
+      <p class="hero-subtitle">Connecting young researchers across Asia through presentation, dialogue and exchange.</p>
+
+      <div class="event-info">
+        <div class="info-item">
+          <p class="info-label">DATE</p>
+          <p class="info-value">Sunday, October 18, 2026</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">FORMAT</p>
+          <p class="info-value">Online via Zoom</p>
+        </div>
+        <div class="info-item">
+          <p class="info-label">LANGUAGE</p>
+          <p class="info-value">English</p>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#program">View Program</a>
+        <a class="button secondary" href="#participation">How to Participate</a>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-kicker">ABOUT</p>
+      <h2>An international forum for high school student research</h2>
+      <div class="two-column">
+        <div>
+          <p>
+            This online conference brings together high school students from across Asia
+            to present their research in English, exchange ideas with their peers, and
+            explore how young research can contribute to society.
+          </p>
+          <p>
+            The conference is hosted by Chiba University STELLA Program ASCENT-6E in
+            collaboration with partner universities in Asia.
+          </p>
+        </div>
+        <div class="purpose-card">
+          <h3>Students will have opportunities to:</h3>
+          <ul>
+            <li>Present their research in an international setting</li>
+            <li>Engage in discussion with peers from other countries</li>
+            <li>Consider links between their research, society and the SDGs</li>
+            <li>Build an international network through shared inquiry</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="program">
+      <p class="section-kicker">PROGRAM</p>
+      <h2>One day of research presentation and exchange</h2>
+
+      <div class="program-grid">
+        <article class="program-card">
+          <div class="program-time">09:00–12:30 JST</div>
+          <h3>Research Presentation Session</h3>
+          <p>
+            High school students will present their research in English in breakout
+            rooms, followed by question-and-answer sessions.
+          </p>
+          <dl>
+            <div><dt>Presentation</dt><dd>10 minutes</dd></div>
+            <div><dt>Q&amp;A</dt><dd>5 minutes</dd></div>
+            <div><dt>Fields</dt><dd>Natural, Applied &amp; Social Sciences</dd></div>
+          </dl>
+        </article>
+
+        <article class="program-card accent">
+          <div class="program-time">13:30–16:30 JST</div>
+          <h3>Workshop Session</h3>
+          <p>
+            Students will engage in group discussion in English using the KJ Method
+            (Affinity Diagram), building on the research shared in the morning session.
+          </p>
+          <dl>
+            <div><dt>Core Theme</dt><dd>Connecting Our Research with Society</dd></div>
+            <div><dt>2026 Focus</dt><dd>Research in the Age of AI</dd></div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="workshop">
+      <p class="section-kicker">WORKSHOP THEME</p>
+      <h2>Connecting Our Research with Society</h2>
+      <p class="lead">
+        <strong>2026 Focus:</strong> Research in the Age of AI: Opportunities and Responsibilities
+      </p>
+      <p class="workshop-intro">
+        Based on the research presented in the morning session, students will discuss how
+        their research connects with society and the SDGs. They will also explore possible
+        roles of AI in their research fields and consider the responsibilities and risks
+        associated with its use.
+      </p>
+
+      <div class="prompt-grid">
+        <div class="prompt-card">What social issue does your research address?</div>
+        <div class="prompt-card">Which SDGs are most closely related to your research?</div>
+        <div class="prompt-card">Could AI support the development, application or communication of your research?</div>
+        <div class="prompt-card">What risks or responsibilities should be considered when using AI?</div>
+      </div>
+    </section>
+
+    <section class="section soft-bg" id="participation">
+      <p class="section-kicker">PARTICIPATION</p>
+      <h2>Eligibility and submissions</h2>
+
+      <div class="participation-layout">
+        <div class="eligibility">
+          <h3>Eligibility</h3>
+          <ul>
+            <li>Students participating in Chiba University STELLA Program ASCENT-6E</li>
+            <li>High school students recommended through Chiba University’s partner universities</li>
+          </ul>
+          <p class="note">
+            Both individual and group research projects are welcome. For group presentations,
+            the same time allocation applies regardless of the number of presenters.
+          </p>
+        </div>
+
+        <div class="submissions">
+          <h3>Submission Schedule</h3>
+          <div class="deadline-row"><span>Registration Form</span><strong>Jul. 20 – Sep. 4</strong></div>
+          <div class="deadline-row"><span>Presentation Slides</span><strong>Jul. 20 – Sep. 25</strong></div>
+          <div class="deadline-row"><span>Workshop Slides</span><strong>Jul. 20 – Sep. 25</strong></div>
+          <div class="deadline-row"><span>Proceedings Document</span><strong>Oct. 18 – Nov. 2</strong></div>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <div class="form-box">
+          <p class="form-for">FOR PARTNER UNIVERSITIES</p>
+          <h3>Participation Confirmation &amp; Coordinator Registration</h3>
+          <p>Confirmation period: June 20 – July 20, 2026</p>
+          <span class="coming-soon">FORM LINK COMING SOON</span>
+        </div>
+        <div class="form-box">
+          <p class="form-for">FOR CONFIRMED PARTICIPATING UNIVERSITIES</p>
+          <h3>Student Project Registration &amp; Staff Assignment</h3>
+          <p>Registration period: July 20 – September 4, 2026</p>
+          <span class="coming-soon">FORM LINK COMING SOON</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <p class="section-kicker">TIMELINE</p>
+      <h2>Preparation schedule for 2026</h2>
+      <div class="timeline-frame">
+        <img src="assets/timeline-2026.png" alt="Timeline for the 2026 online international research conference">
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="section-kicker">CONTACT</p>
+      <h2>Chiba University STELLA Program ASCENT-6E</h2>
+      <div class="contact-grid">
+        <div>
+          <p class="contact-title">Academic Advisor</p>
+          <p>Qian Wang</p>
+          <p><a href="mailto:ascent6e-wq@chiba-u.jp">ascent6e-wq@chiba-u.jp</a></p>
+        </div>
+        <div>
+          <p class="contact-title">Academic Sustainer</p>
+          <p>Hina Morishige</p>
+          <p><a href="mailto:hmrsg@chiba-u.jp">hmrsg@chiba-u.jp</a></p>
+        </div>
+      </div>
+
+      <div class="privacy-note">
+        <h3>Privacy Notice</h3>
+        <p>
+          Personal information submitted through the registration forms will be used only
+          for the organization and operation of this conference, including communication
+          with participants, preparation of the program, and coordination of conference sessions.
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Hosted by Chiba University STELLA Program ASCENT-6E</p>
+      <p>© 2026 Chiba University STELLA Program ASCENT-6E</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
